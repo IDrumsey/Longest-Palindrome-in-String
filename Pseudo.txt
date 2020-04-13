@@ -1,0 +1,12 @@
+1. Set Start char and index
+
+2. Find last char == start char from end
+
+3. Check if specified indeces match
+	
+	if match, continue until at middle		
+		
+		if we made it all the way, check substring length to the current longest palindrome and maybe replace
+			then set new start to end + 1
+
+	else, move start index to next char and end to end of string and try again
